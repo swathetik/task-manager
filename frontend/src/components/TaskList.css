@@ -1,0 +1,91 @@
+/* src/components/TaskList.css */
+body {
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.task-list {
+  width: 80%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.task-list h1 {
+  text-align: center;
+  color: #f8f9fa;
+  margin-bottom: 20px;
+}
+
+.add-task-link {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.add-task-link:hover {
+  background-color: #0056b3;
+}
+
+.task-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  background-color: #333;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.task-list li:hover {
+  background-color: #444;
+}
+
+.task-list li img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.task-list li a {
+  color: #f8f9fa;
+  font-weight: bold;
+  text-decoration: none;
+  flex: 1;
+}
+
+.task-list li a:hover {
+  text-decoration: underline;
+}
+
+.task-list li button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-list li button:hover {
+  background-color: #c82333;
+}

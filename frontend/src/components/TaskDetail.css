@@ -1,0 +1,57 @@
+/* src/components/TaskDetail.css */
+body {
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.task-detail {
+  width: 80%;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.task-detail h1 {
+  text-align: center;
+  color: #000000;
+}
+
+.task-detail p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #030303;
+}
+
+.task-detail .actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.task-detail button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-detail button:hover {
+  background-color: #0056b3;
+}
+
+.task-detail button.delete {
+  background-color: #dc3545;
+}
+
+.task-detail button.delete:hover {
+  background-color: #c82333;
+}
